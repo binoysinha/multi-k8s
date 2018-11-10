@@ -17,4 +17,4 @@ spec:
           ingressClass: nginx
         domains:
           - binoysinha.com
-          - wwww.binoysinha.com
+          - www.binoysinha.com
