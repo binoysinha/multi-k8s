@@ -63,6 +63,10 @@ td {
   text-align: left;
 }
 
+th {
+  background-color: beige;
+}
+
 .err {
   color: red;
 }
