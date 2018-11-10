@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const OtherPage = () => {
     return (
-        <div>I am just a dummy page!
+        <div>OOPS!!! I am just a dummy page!
             <Link to="/">Go back home</Link>
         </div>
     );
