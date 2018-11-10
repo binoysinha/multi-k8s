@@ -1,0 +1,20 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: binoysinha-com-tls
+spec:
+  secretName: binoysinha-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: binoysinha.com
+  dnsNames:
+    - binoysinha.com
+    - www.binoysinha.com
+  acme:
+    config:
+      - http01:
+          ingressClass: nginx
+        domains:
+          - binoysinha.com
+          - wwww.binoysinha.com
